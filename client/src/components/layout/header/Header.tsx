@@ -1,22 +1,18 @@
 const Header = () => {
     return (
         <>
-            <div className="bg-gray-800">
+            <div className="bg-white">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
 
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <img
-                                    alt="Your Company"
-                                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                                    className="h-8 w-8"
-                                />
+                                <img src="/logo.png" className="h-5" alt="Company Logo" />
                             </div>
 
                         </div>
 
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        <button className="bg-[#72035d] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             Logout
                         </button>
                     </div>
@@ -25,9 +21,9 @@ const Header = () => {
 
             </div>
 
-            <header className="bg-white shadow">
+            <header className="bg-[#72035d]">
                 <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                    <h1 className="text-3xl font-bold tracking-tight text-gray-900">Natural Cycles</h1>
+                    <h1 className="text-xl font-bold text-white">Profile Management</h1>
                 </div>
             </header>
         </>
