@@ -3,13 +3,17 @@ import { Info } from "lucide-react";
 export function Profile() {
     return (
         <>
-            <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-                <div className="border rounded-t p-10 mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div className="flex min-h-full flex-1 flex-col justify-center">
+                <div className="border rounded-t px-5 py-10 mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+                    <div className="flex items-center font-bold text-sm mb-2">Manage profile information</div>
+                    <div className="flex items-center text-sm text-gray-600 mb-10">Update your email and name to keep your account information current and accurate.</div>
+
+
                     <form action="#" method="POST" className="space-y-6">
                         <div>
                             <div className="flex items-center justify-between">
-                                <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">
-                                    Email address
+                                <label htmlFor="password" className="block text-sm leading-6 text-gray-900">
+                                    Name
                                 </label>
                             </div>
                             <div className="mt-2">
@@ -25,8 +29,8 @@ export function Profile() {
                         </div>
 
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
-                                Name
+                            <label htmlFor="email" className="block text-sm leading-6 text-gray-900">
+                                Email address
                             </label>
                             <div className="mt-2">
                                 <input
@@ -43,17 +47,14 @@ export function Profile() {
                         <div>
                             <button
                                 type="submit"
-                                className="flex w-full justify-center rounded-md bg-[#72035d] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                className="flex w-full justify-center rounded-md bg-[#72035d] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[#72035d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#72035d]"
                             >
                                 Save
                             </button>
                         </div>
                     </form>
 
-                    <div className="flex items-center text-gray-500">
-                        <Info className="h-4 w-4" />
-                        <span>Manage your profile</span>
-                    </div>
+
                 </div>
             </div>
         </>
