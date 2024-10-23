@@ -12,7 +12,7 @@ const Header = () => {
 
                         </div>
 
-                        <button className="bg-[#72035d] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        <button className="bg-[#72035d] hover:bg-[#72035d] text-white font-bold py-2 px-4 rounded">
                             Logout
                         </button>
                     </div>
